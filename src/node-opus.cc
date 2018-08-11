@@ -15,7 +15,7 @@ using namespace v8;
 #define FRAME_SIZE 960
 #define MAX_FRAME_SIZE 6*960
 #define MAX_PACKET_SIZE (3*1276)
-#define BITRATE 64000
+#define BITRATE 96000
 
 const char* getDecodeError( int decodedSamples ) {
 	switch( decodedSamples ) {
